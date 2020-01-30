@@ -4,7 +4,7 @@ project(KenKen)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_BUILD_TYPE Debug)
 
-find_package(Z3 REQUIRED)
+find_package(Z3 REQUIRED PATHS /Users/Peter/NonbrewableLibraries)
 # set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
 message(STATUS "Z3_FOUND: ${Z3_FOUND}")
