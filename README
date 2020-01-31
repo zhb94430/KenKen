@@ -1,3 +1,23 @@
-Editing find_package() PATHS might be needed on other machines
 
+***************
+***************
+*****ATTN******
+***************
+***************
+[Input file] 
+Please make sure the input file is strictly separated by ONE space. The provided file on canvas has two spaces between the first and second string. This does not match the assignment description, thus the code does not account for that.
+
+The test files in Binary.zip has been fixed. 
+
+[Encoding]
+The encoding is pretty straightforward for addition and multiplication. The division and deduction is implemented by enumerating the full combination for each constant and connecting them by using OR statement.
+
+[Running the code]
+Perform out-of-directory CMake build. Requires Z3 to be installed and detectable by CMake.  
+Editing find_package() PATHS in CmakeList.txt might be needed on other machines.
+
+Usage: KenKen [Path-to-input-file]
+
+[Misc]
+I misread the deadline, so this assignment is not complete and only contains the implementation of Z3. 
 
